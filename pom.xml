@@ -4,6 +4,7 @@
 	<groupId>com.ksn</groupId>
 	<artifactId>nanonggod</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 
 	<dependencies>
 
@@ -21,20 +22,6 @@
 			<version>3.1.0</version>
 		</dependency>
 
-		<!-- mysql connector -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.38</version>
-		</dependency>
-
-		<!-- dbcp datasource -->
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-dbcp2</artifactId>
-			<version>2.1.1</version>
-		</dependency>
-
 		<!-- sprng -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -46,25 +33,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>4.2.5.RELEASE</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
-			<version>4.2.5.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-orm</artifactId>
-			<version>4.2.5.RELEASE</version>
-		</dependency>
-		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-tx</artifactId> 
-			<version>4.2.5.RELEASE</version> </dependency> -->
 			
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>5.1.0.Final</version>
-		</dependency>
-
 		<!-- spring test -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -86,13 +55,22 @@
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		<outputDirectory>WebContent/WEB-INF/classes</outputDirectory>
+		<resources>
+			<resource>
+				<directory>resources</directory>
+			</resource>
+		</resources>
+		
+		<!-- <outputDirectory></outputDirectory> -->
 		<plugins>
 			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
 				<configuration>
-					<source />
-					<target />
+					<webXml>WebContent/WEB-INF/web.xml</webXml>
+					<warSourceDirectory>WebContent</warSourceDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
