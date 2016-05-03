@@ -20,6 +20,15 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		
+		<!-- jstl -->
+		<dependency>
+			<groupId>javax.servlet.jsp.jstl</groupId>
+			<artifactId>javax.servlet.jsp.jstl-api</artifactId>
+			<version>1.2.1</version>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- sprng -->

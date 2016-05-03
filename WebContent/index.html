@@ -35,14 +35,14 @@ body {
 }
 
 .container {
-	width: 960px;
+	/* width: 960px; */
 }
 </style>
 </head>
 <body>
 <!-- 导航栏 -->
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">
 				<img alt="纳秾神" src="">
@@ -83,42 +83,48 @@ body {
 </div> -->
 <!-- 横幅～ -->
 
-<!-- 幻灯片 -->
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	<ol class="carousel-indicators">
-		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	</ol>
 
-	<div class="carousel-inner" role="listbox">
-		<div class="item active">
-			<img src="static/img/placard/1-11.jpg" alt="">
-			<div class="carousel-caption"></div>
-		</div>
-		<div class="item">
-			<img src="static/img/placard/1-12.jpg" alt="">
-			<div class="carousel-caption"></div>
-		</div>
-		<div class="item">
-			<img src="static/img/placard/1-13.jpg" alt="">
-			<div class="carousel-caption"></div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<!-- 幻灯片 -->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+			
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="static/img/placard/1-11.jpg" alt="">
+						<div class="carousel-caption"></div>
+					</div>
+					<div class="item">
+						<img src="static/img/placard/1-12.jpg" alt="">
+						<div class="carousel-caption"></div>
+					</div>
+					<div class="item">
+						<img src="static/img/placard/1-13.jpg" alt="">
+						<div class="carousel-caption"></div>
+					</div>
+				</div>
+			
+				<a class="left carousel-control" href="#carousel-example-generic"
+					role="button" data-slide="prev"> <span
+					class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span
+					class="sr-only">Previous</span>
+				</a> <a class="right carousel-control" href="#carousel-example-generic"
+					role="button" data-slide="next"> <span
+					class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<!-- 幻灯片～ -->
 		</div>
 	</div>
 
-	<a class="left carousel-control" href="#carousel-example-generic"
-		role="button" data-slide="prev"> <span
-		class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span
-		class="sr-only">Previous</span>
-	</a> <a class="right carousel-control" href="#carousel-example-generic"
-		role="button" data-slide="next"> <span
-		class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div>
-<!-- 幻灯片～ -->
-
-<div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="page-header">

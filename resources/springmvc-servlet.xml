@@ -20,7 +20,7 @@
 	<context:annotation-config />
 
 	<!-- 扫描实例化Controller -->
-	<context:component-scan base-package="com.wenhuaju.controller" />
+	<context:component-scan base-package="com.nanonggod.controller" />
 
 	<!-- 启用MVC注解 -->
 	<mvc:annotation-driven />
