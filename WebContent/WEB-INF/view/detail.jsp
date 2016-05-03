@@ -13,6 +13,12 @@
 body {
 	padding-top: 50px;
 }
+.detail {
+	display: none;
+}
+.detail.active {
+	display: inline;
+}
 </style>
 </head>
 <body>
@@ -29,17 +35,6 @@ body {
 				<li>
 					<p class="navbar-text">联系电话：(020)86364889</p>
 				</li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle"
-					data-toggle="dropdown" role="button" aria-haspopup="true"
-					aria-expanded="false">下拉框 <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">Separated link</a></li>
-					</ul>
-				</li>
 			</ul>
 		</div>
 	</div>
@@ -47,10 +42,30 @@ body {
 <!-- 导航栏～ -->
 
 <div class="container">
-	<div class="row">
+	<div class="row detail <c:if test='${code eq 1}'>active</c:if>">
 		<div class="col-md-12">
 			<div class="page-header">
-				<h1>纳秾神 <small>农业肥料专家</small></h1>
+				<h1>纳秾神1号</small></h1>
+			</div>
+			<ul>
+				<li>地址：广州市三元里大道788号集祥大厦52A01室</li>
+				<li>电话：(020)86364889</li>
+				<li>传真：(020)86364889</li>
+				<li>产地：台湾</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row detail <c:if test='${code eq 3}'>active</c:if>">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>纳秾神3号</h1>
+			</div>
+		</div>
+	</div>
+	<div class="row detail <c:if test='${code eq 5}'>active</c:if>">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>纳秾神5号</h1>
 			</div>
 		</div>
 	</div>
