@@ -6,7 +6,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class DetailController {
+@RequestMapping("/common")
+public class CommonController {
+	
+	@RequestMapping(value="/toIndex.htm", method={RequestMethod.GET, RequestMethod.POST})
+	public ModelAndView toIndex() {
+		ModelAndView mav = new ModelAndView("index");
+		return mav;
+	}
+	
+	@RequestMapping(value="/toAbout.htm", method={RequestMethod.GET, RequestMethod.POST})
+	public ModelAndView toAbout() {
+		ModelAndView mav = new ModelAndView("about");
+		return mav;
+	}
 	
 	@RequestMapping(value="/toDetail.htm", method={RequestMethod.GET, RequestMethod.POST})
 	public ModelAndView toDetail(String code) {

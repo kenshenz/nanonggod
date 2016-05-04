@@ -1,10 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ include  file="include/include.jsp"%>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>纳秾神-产品 ${title }</title>
+<title>纳秾神-关于我们</title>
 <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -13,11 +11,31 @@
 body {
 	padding-top: 50px;
 }
-.detail {
-	display: none;
+
+.carousel {
+	/* height: 500px; */
+	background-color: #FFF;
 }
-.detail.active {
-	display: inline;
+
+.carousel .item {
+	/* height: 500px; */
+	background-color: #FFF;
+}
+
+.carousel img {
+	width: 100%;
+	/* margin: 0 auto; */
+}
+
+.blur {
+	-webkit-filter: blur(10px); /* Chrome, Opera */
+	-moz-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+}
+
+.container {
+	/* width: 960px; */
 }
 </style>
 </head>
@@ -26,7 +44,7 @@ body {
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="<%=basePath %>">
+			<a class="navbar-brand" href="#">
 				<img alt="纳秾神" src="">
 			</a>
 		</div>
@@ -35,9 +53,6 @@ body {
 				<li>
 					<p class="navbar-text">联系电话：(020)86364889</p>
 				</li>
-				<li>
-					<a href="<%=basePath %>/common/toAbout.htm" class="navbar-link">关于我们</a>
-				</li>
 			</ul>
 		</div>
 	</div>
@@ -45,34 +60,21 @@ body {
 <!-- 导航栏～ -->
 
 <div class="container">
-	<div class="row detail <c:if test='${code eq 1}'>active</c:if>">
+	<div class="row">
 		<div class="col-md-12">
 			<div class="page-header">
-				<h1>纳秾神1号</small></h1>
-			</div>
-			<ul>
-				<li>地址：广州市三元里大道788号集祥大厦52A01室</li>
-				<li>电话：(020)86364889</li>
-				<li>传真：(020)86364889</li>
-				<li>产地：台湾</li>
-			</ul>
-		</div>
-	</div>
-	<div class="row detail <c:if test='${code eq 3}'>active</c:if>">
-		<div class="col-md-12">
-			<div class="page-header">
-				<h1>纳秾神3号</h1>
+				<h1>纳秾神 <small>农业肥料专家</small></h1>
 			</div>
 		</div>
 	</div>
-	<div class="row detail <c:if test='${code eq 5}'>active</c:if>">
+	<div class="row">
 		<div class="col-md-12">
-			<div class="page-header">
-				<h1>纳秾神5号</h1>
-			</div>
+			<img src="static/img/about/1.jpg" style="width:100%">
+		</div>
+		<div class="col-md-12">
+			<img src="static/img/about/2.jpg" style="width:100%">
 		</div>
 	</div>
 </div>
-
 </body>
 </html>

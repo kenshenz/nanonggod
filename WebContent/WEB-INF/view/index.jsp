@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include  file="include/include.jsp"%>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -44,7 +46,7 @@ body {
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="<%=basePath %>">
 				<img alt="纳秾神" src="">
 			</a>
 		</div>
@@ -54,7 +56,7 @@ body {
 					<p class="navbar-text">联系电话：(020)86364889</p>
 				</li>
 				<li>
-					<a href="about.html" class="navbar-link">关于我们</a>
+					<a href="<%=basePath %>/common/toAbout.htm" class="navbar-link">关于我们</a>
 				</li>
 			</ul>
 		</div>
@@ -90,15 +92,15 @@ body {
 			
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="static/img/placard/1-11.jpg" alt="">
+						<img src="<%=basePath %>/static/img/placard/1-11.jpg" alt="">
 						<div class="carousel-caption"></div>
 					</div>
 					<div class="item">
-						<img src="static/img/placard/1-12.jpg" alt="">
+						<img src="<%=basePath %>/static/img/placard/1-12.jpg" alt="">
 						<div class="carousel-caption"></div>
 					</div>
 					<div class="item">
-						<img src="static/img/placard/1-13.jpg" alt="">
+						<img src="<%=basePath %>/static/img/placard/1-13.jpg" alt="">
 						<div class="carousel-caption"></div>
 					</div>
 				</div>
@@ -127,13 +129,13 @@ body {
 	
 	<div class="row">
 		<div class="col-md-12">
-			<img src="static/img/intro_1.jpg" style="width:100%">
+			<img src="<%=basePath %>/static/img/intro_1.jpg" style="width:100%">
 		</div>
 		<div class="col-md-12">
-			<img src="static/img/intro_3.jpg" style="width:100%">
+			<img src="<%=basePath %>/static/img/intro_3.jpg" style="width:100%">
 		</div>
 		<div class="col-md-12">
-			<img src="static/img/intro_5.jpg" style="width:100%">
+			<img src="<%=basePath %>/static/img/intro_5.jpg" style="width:100%">
 		</div>
 	</div>
 	
