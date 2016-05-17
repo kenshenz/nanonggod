@@ -71,7 +71,6 @@
 			</resource>
 		</resources>
 		
-		<!-- <outputDirectory></outputDirectory> -->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -80,6 +79,8 @@
 				<configuration>
 					<webXml>WebContent/WEB-INF/web.xml</webXml>
 					<warSourceDirectory>WebContent</warSourceDirectory>
+					<warName>nanonggod</warName>
+					<webappDirectory>${project.build.directory}/nanonggod</webappDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
