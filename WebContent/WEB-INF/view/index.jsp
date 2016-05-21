@@ -4,7 +4,9 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>纳秾神-首页</title>
+<title>纳秾神--广州市纳提诺贸易有限公司--农业肥料专家</title>
+<meta name="description" content="纳秾神是广州市纳提诺贸易有限公司旗下的化肥品牌，专业化肥、高端化肥、全国销售、诚招代理、全球最新高科技纳米技术" />
+<meta name="keywords" content="化肥 果肥 叶肥 土壤改质肥 有机肥 纳秾神 纳提诺 广州市纳提诺贸易有限公司 天然 无毒 无化学添加 小额贷款" />
 <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -129,13 +131,13 @@ body {
 	
 	<div class="row">
 		<div class="col-md-12">
-			<img src="<%=basePath %>/static/img/intro_1.jpg" style="width:100%">
+			<img src="<%=basePath %>/static/img/intro_1.jpg" style="width:100%" alt="纳秾神1号叶肥">
 		</div>
 		<div class="col-md-12">
-			<img src="<%=basePath %>/static/img/intro_3.jpg" style="width:100%">
+			<img src="<%=basePath %>/static/img/intro_3.jpg" style="width:100%" alt="纳秾神3号果肥">
 		</div>
 		<div class="col-md-12">
-			<img src="<%=basePath %>/static/img/intro_5.jpg" style="width:100%">
+			<img src="<%=basePath %>/static/img/intro_5.jpg" style="width:100%" alt="纳秾神5号土壤改质肥">
 		</div>
 	</div>
 	
