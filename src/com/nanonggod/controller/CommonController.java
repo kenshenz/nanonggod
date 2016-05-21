@@ -22,18 +22,11 @@ public class CommonController {
 	}
 	
 	@RequestMapping(value="/toDetail.htm", method={RequestMethod.GET, RequestMethod.POST})
-	public ModelAndView toDetail(String code) {
+	public ModelAndView toDetail() {
 		String title = "";
-		if ("1".equals(code)) {
-			title = "纳秾神 1号叶肥";
-		} else if ("3".equals(code)) {
-			title = "纳秾神 3号果肥";
-		} else if ("5".equals(code)) {
-			title = "纳秾神 5号土壤改质肥";
-		}
+		title = "纳秾神 产品说明";
 		
 		ModelAndView mav = new ModelAndView("detail");
-		mav.addObject("code", code);
 		mav.addObject("title", title);
 		
 		return mav;

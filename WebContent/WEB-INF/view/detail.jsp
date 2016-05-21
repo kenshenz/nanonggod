@@ -13,12 +13,7 @@
 body {
 	padding-top: 50px;
 }
-.detail {
-	display: none;
-}
-.detail.active {
-	display: inline;
-}
+
 </style>
 </head>
 <body>
@@ -45,31 +40,24 @@ body {
 <!-- 导航栏～ -->
 
 <div class="container">
-	<div class="row detail <c:if test='${code eq 1}'>active</c:if>">
+	<div class="row">
 		<div class="col-md-12">
 			<div class="page-header">
-				<h1>纳秾神1号</small></h1>
+				<h1>纳秾神1号 叶肥</h1>
 			</div>
-			<ul>
-				<li>地址：广州市三元里大道788号集祥大厦52A01室</li>
-				<li>电话：(020)86364889</li>
-				<li>传真：(020)86364889</li>
-				<li>产地：台湾</li>
-			</ul>
+			<img src="<%=basePath %>/static/img/detail/1.jpg">
 		</div>
-	</div>
-	<div class="row detail <c:if test='${code eq 3}'>active</c:if>">
 		<div class="col-md-12">
 			<div class="page-header">
-				<h1>纳秾神3号</h1>
+				<h1>纳秾神3号 果肥</h1>
 			</div>
+			<img src="<%=basePath %>/static/img/detail/3.jpg">
 		</div>
-	</div>
-	<div class="row detail <c:if test='${code eq 5}'>active</c:if>">
 		<div class="col-md-12">
 			<div class="page-header">
 				<h1>纳秾神5号</h1>
 			</div>
+			<img src="<%=basePath %>/static/img/detail/5.jpg">
 		</div>
 	</div>
 </div>
