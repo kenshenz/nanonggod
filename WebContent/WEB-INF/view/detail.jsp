@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>纳秾神--广州市纳提诺贸易有限公司--农业肥料专家</title>
-<meta name="description" content="纳秾神是广州市纳提诺贸易有限公司旗下的化肥品牌，专业化肥、高端化肥、全国销售、诚招代理、全球最新高科技纳米技术" />
-<meta name="keywords" content="化肥 果肥 叶肥 土壤改质肥 有机肥 纳秾神 纳提诺 广州市纳提诺贸易有限公司 天然 无毒 无化学添加 小额贷款" />
+<meta name="description" content="纳秾神是广州市纳提诺贸易有限公司旗下的有机肥品牌，专业有机肥、高端有机肥、全国销售、诚招代理、全球最新高科技纳米技术，唯一官网www.nanonggod.com" />
+<meta name="keywords" content="农业 肥料 有机肥 果肥 叶肥 土壤改质肥 纳秾神 纳提诺 广州市纳提诺贸易有限公司 天然 无毒 无化学添加" />
 <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
