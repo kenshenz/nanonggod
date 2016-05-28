@@ -84,10 +84,22 @@ body {
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<img src="<%=basePath %>/static/img/about/1.jpg" style="width:100%" alt="本公司主要生产高科技、纯天然、无毒、无化学添加的有机质肥料">
+			<img src="<%=basePath %>/static/img/about/a1.jpg" style="width:100%" alt="天然、无毒、无化学添加">
 		</div>
 		<div class="col-md-12">
-			<img src="<%=basePath %>/static/img/about/2.jpg" style="width:100%" alt="广州市纳提诺贸易有限公司，广州市三元里大道788号集祥大厦52A01室">
+			<img src="<%=basePath %>/static/img/about/a2.jpg" style="width:100%" alt="纳米有机施肥技术">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/about/a3.jpg" style="width:100%" alt="纳秾神1号3号5号">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/about/a4.jpg" style="width:100%" alt="提升产量品质、改善虫害、增强适应能力、改善土壤环境">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/about/a5.jpg" style="width:100%" alt="公司主要生产高科技、纯天然、无毒、无化学添加的有机质肥料">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/about/a6.jpg" style="width:100%" alt="广州市纳提诺贸易有限公司，广州市三元里大道788号集祥大厦52A01室">
 		</div>
 		<div class="col-md-12">
 			<img src="<%=basePath %>/static/img/about/yingyezhizhao.jpg" style="width:100%" alt="广州市纳提诺贸易有限公司，营业执照">
