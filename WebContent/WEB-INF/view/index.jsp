@@ -86,7 +86,7 @@ body {
 </div> -->
 <!-- 横幅～ -->
 
-<div class="container-fluid">
+<div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<!-- 幻灯片 -->
