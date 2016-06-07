@@ -43,6 +43,16 @@ body {
 	/* width: 960px; */
 }
 </style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?f966e46da5426ee814598c557fa4ab52";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 </head>
 <body>
 <!-- 导航栏 -->
