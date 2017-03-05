@@ -156,6 +156,45 @@ var _hmt = _hmt || [];
 			<img src="<%=basePath %>/static/img/intro_5.jpg" style="width:100%" alt="纳秾神5号土壤改质肥">
 		</div>
 	</div>
+	
+	<div class="row">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>效果展示</h1>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo1.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo2.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo3.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo4.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo5.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo6.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo7.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo8.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo9.jpg" style="width:100%" alt="">
+		</div>
+	</div>
+	
 	<hr/>
 	<div class="row footer-bottom">
 		<ul class="list-inline text-center">
