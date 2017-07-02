@@ -193,6 +193,12 @@ var _hmt = _hmt || [];
 		<div class="col-md-12">
 			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo9.jpg" style="width:100%" alt="">
 		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo10.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo11.jpg" style="width:100%" alt="">
+		</div>
 	</div>
 	
 	<hr/>
