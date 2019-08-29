@@ -205,7 +205,7 @@ var _hmt = _hmt || [];
 	<div class="row footer-bottom">
 		<ul class="list-inline text-center">
 			<li>Copyright © 广州市纳提诺贸易有限公司</li>
-			<li><a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备16045360号</a></li>
+			<li><a href="http://www.beian.miit.gov.cn" target="_blank">粤ICP备16045360号</a></li>
 		</ul>
 	</div>
 
