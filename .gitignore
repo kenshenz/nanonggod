@@ -3,3 +3,8 @@
 .classpath
 .project
 .settings/
+
+/**/*.class
+/WebContent/WEB-INF/classes/
+/.idea/
+*.iml
