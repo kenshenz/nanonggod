@@ -166,9 +166,9 @@ var _hmt = _hmt || [];
 	</div>
 	
 	<div class="row">
-		<div class="col-md-12">
-			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo1.jpg" style="width:100%" alt="">
-		</div>
+		<%--<div class="col-md-12">--%>
+			<%--<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo1.jpg" style="width:100%" alt="">--%>
+		<%--</div>--%>
 		<div class="col-md-12">
 			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo2.jpg" style="width:100%" alt="">
 		</div>
@@ -184,12 +184,12 @@ var _hmt = _hmt || [];
 		<div class="col-md-12">
 			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo6.jpg" style="width:100%" alt="">
 		</div>
-		<div class="col-md-12">
-			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo7.jpg" style="width:100%" alt="">
-		</div>
-		<div class="col-md-12">
-			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo8.jpg" style="width:100%" alt="">
-		</div>
+		<%--<div class="col-md-12">--%>
+			<%--<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo7.jpg" style="width:100%" alt="">--%>
+		<%--</div>--%>
+		<%--<div class="col-md-12">--%>
+			<%--<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo8.jpg" style="width:100%" alt="">--%>
+		<%--</div>--%>
 		<div class="col-md-12">
 			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo9.jpg" style="width:100%" alt="">
 		</div>
@@ -198,6 +198,9 @@ var _hmt = _hmt || [];
 		</div>
 		<div class="col-md-12">
 			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo11.jpg" style="width:100%" alt="">
+		</div>
+		<div class="col-md-12">
+			<img src="<%=basePath %>/static/img/xiaoguo/xiaoguo15.jpg" style="width:100%" alt="">
 		</div>
 	</div>
 	
