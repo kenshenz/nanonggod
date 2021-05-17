@@ -64,22 +64,33 @@ var _hmt = _hmt || [];
 			<div class="page-header">
 				<h1>纳秾神1号 叶肥</h1>
 			</div>
-			<img src="<%=basePath %>/static/img/detail/1.jpg" style="width:100%" alt="纳秾神1号 叶肥">
-			<img src="<%=basePath %>/static/img/detail/1-1.jpg" style="width:100%" alt="纳秾神1号 叶肥">
+			<img src="<%=basePath %>/static/img/detail/1-0.png" style="width:100%" alt="纳秾神1号 叶肥">
+			<%--<img src="<%=basePath %>/static/img/detail/1.jpg" style="width:100%" alt="纳秾神1号 叶肥">--%>
+			<%--<img src="<%=basePath %>/static/img/detail/1-1.jpg" style="width:100%" alt="纳秾神1号 叶肥">--%>
+		</div>
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>纳秾神2号</h1>
+			</div>
+			<img src="<%=basePath %>/static/img/detail/2-2.png" style="width:100%" alt="纳秾神2号">
+			<%--<img src="<%=basePath %>/static/img/detail/1.jpg" style="width:100%" alt="纳秾神1号 叶肥">--%>
+			<%--<img src="<%=basePath %>/static/img/detail/1-1.jpg" style="width:100%" alt="纳秾神1号 叶肥">--%>
 		</div>
 		<div class="col-md-12">
 			<div class="page-header">
 				<h1>纳秾神3号 果肥</h1>
 			</div>
-			<img src="<%=basePath %>/static/img/detail/3.jpg" style="width:100%" alt="纳秾神3号 果肥">
-			<img src="<%=basePath %>/static/img/detail/3-1.jpg" style="width:100%" alt="纳秾神1号 叶肥">
+			<img src="<%=basePath %>/static/img/detail/3-0.png" style="width:100%" alt="纳秾神3号 果肥">
+			<%--<img src="<%=basePath %>/static/img/detail/3.jpg" style="width:100%" alt="纳秾神3号 果肥">--%>
+			<%--<img src="<%=basePath %>/static/img/detail/3-1.jpg" style="width:100%" alt="纳秾神1号 叶肥">--%>
 		</div>
 		<div class="col-md-12">
 			<div class="page-header">
 				<h1>纳秾神5号 土壤改质肥</h1>
 			</div>
-			<img src="<%=basePath %>/static/img/detail/5.jpg" style="width:100%" alt="纳秾神5号 土壤改质肥">
-			<img src="<%=basePath %>/static/img/detail/5-1.jpg" style="width:100%" alt="纳秾神1号 叶肥">
+			<img src="<%=basePath %>/static/img/detail/5-0.png" style="width:100%" alt="纳秾神5号 土壤改质肥">
+			<%--<img src="<%=basePath %>/static/img/detail/5.jpg" style="width:100%" alt="纳秾神5号 土壤改质肥">--%>
+			<%--<img src="<%=basePath %>/static/img/detail/5-1.jpg" style="width:100%" alt="纳秾神1号 叶肥">--%>
 		</div>
 	</div>
 	<hr/>
